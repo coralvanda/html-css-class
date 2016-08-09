@@ -11,15 +11,16 @@
 
 .grid {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1000px;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .row {
     width: 100%;
     margin-bottom: 20px;
     display: flex;
-	max-height: 100px;
+    flex-wrap: wrap;
 }
 
 .col-1 {
@@ -36,6 +37,7 @@
 
 .col-4 {
     width: 33.33%;
+    min-width: 300px;
 }
 
 .col-5 {
@@ -72,6 +74,11 @@
     margin: 0;
 }
 
+#logo {
+    max-width: 75px;
+    max-height: 75px;
+}
+
 #right{
     float: right;
 }
@@ -90,17 +97,22 @@
 h1{
     display: flex;
     justify-content: flex-end;
+    color: #2d3c49;
+    font-family: 'Quicksand', sans-serif;
 }
 
 h4{
     display: flex;
     justify-content: flex-end;
+    color: #2d3c49;
+    font-family: 'Quicksand', sans-serif;
 }
 
 h2{
     margin-top: 20px;
     margin-bottom: 0;
     padding-left: 35px;
+    color: #7d97ad;
 }
 
 hr{
@@ -122,6 +134,7 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 100%;
 }
 
 p{
