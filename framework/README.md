@@ -8,4 +8,4 @@ This is a project completed as a part of the Udacity Full-stack Developer Nanode
 How to use
 ----------
 
-First, install the portfolio.html file, and the /images and /css directories all inside the same parent directory.  Then use a webbrowser to open the portfolio.html file.
+First, install the portfolio.html file, and the images/ and css/ directories all inside the same parent directory.  Then use a webbrowser to open the portfolio.html file.
